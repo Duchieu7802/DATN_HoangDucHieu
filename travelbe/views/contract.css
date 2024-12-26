@@ -1,0 +1,20 @@
+h2 {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.feed-header,
+.feed-title {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.feed-active,
+.feed-term {
+	margin-bottom: 30px;
+	line-height: 2.5;
+}

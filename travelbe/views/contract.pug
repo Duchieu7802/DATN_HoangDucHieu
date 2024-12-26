@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Hợp Đồng Du Lịch
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet")
+  body
+    h2(style="text-align: center;display: flex;justify-content: center;align-items: center;margin-bottom: 10px;") CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+    h2(style="text-align: center;display: flex;justify-content: center;align-items: center;margin-bottom: 10px;") Độc lập – Tự do – Hạnh phúc
+    hr
+    h2(style="text-align: center;display: flex;justify-content: center;align-items: center;margin-bottom: 10px;") HỢP ĐỒNG TOUR DU LỊCH #{data.data.tentour.toUpperCase()}
+    div
+        div(style="margin-bottom: 10px;line-height: 1.6;font-weight:600;") Bên A: #{benA.ten}
+        div(style="margin-bottom:10px;line-height: 1.6;") Người đại diện: #{benA.nguoiDaiDien} - Email: #{benA.email}
+        div(style="margin-bottom:10px;line-height: 1.6;") Điện thoại: #{benA.dienThoai} - Địa chỉ: #{benA.diaChi}
+        br
+        div(style="margin-bottom:10px;line-height: 1.6;font-weight:600") Bên B: #{benB.ten}
+        div(style="margin-bottom:10px;line-height: 1.6;") Địa chỉ: #{benB.diaChi}
+        div(style="margin-bottom:10px;line-height: 1.6;") Người đại diện: #{benB.nguoiDaiDien} – Chức Vụ: #{benB.chucVu}
+        div(style="margin-bottom:10px;line-height: 1.6;") Điện thoại: #{benB.dienThoai} – Fax: #{benB.fax}
+        div(style="margin-bottom:10px;line-height: 1.6;") Giấy phép kinh doanh số: #{benB.giayPhep} – Nơi cấp: #{benB.noiCap}
+    p Hai bên thống nhất ký một số điều khoản phục vụ khách du lịch như sau:
+    h3 ĐIỀU KHOẢN
+    p(style="margin-bottom: 10px;line-height: 1.6;") 1. Bên A có trách nhiệm thông báo chi tiết và xác nhận về lượng khách kèm theo danh sách địa điểm, thời gian, và thông tin liên quan của đoàn khách trước 03 ngày khởi hành cho bên B.
+    p(style="margin-bottom: 10px;line-height: 1.6;") 2. Bên A thanh toán đầy đủ, đúng hạn cho bên B tổng giá trị hợp đồng theo phương thức đã nêu trên. Nếu phát sinh chi phí cho việc làm hay yêu cầu của bên A thì bên A phải thanh toán thêm khoản chi phí đó cho bên B.
+    p(style="margin-bottom: 10px;line-height: 1.6;") 3. Trong quá trình thực hiện hợp đồng, mọi phát sinh tranh chấp đều được hai bên cùng nhau bàn bạc và giải quyết trên tinh thần bình đẳng hai bên đều có lợi.
+    p(style="margin-bottom: 10px;line-height: 1.6;") 4. Những phụ lục hợp đồng kèm theo có giá trị pháp lý như bản hợp đồng này.
+    p(style="margin-bottom: 10px;line-height: 1.6;") 5. Hai bên cam kết thực hiện đúng những điều khoản như trong hợp đồng, bên nào thực hiện sai gây tổn hại về thời gian, vật chất cho bên kia thì phải chịu trách nhiệm bồi hoàn phần tổn hại đó cho bên kia theo quy định trước pháp luật.
+    p(style="margin-bottom: 10px;line-height: 1.6;") 6. Hợp đồng này gồm có 01 trang và được lập 02 bản, mỗi bên giữ 01 bản có giá trị pháp lý như nhau và có hiệu lực kể từ ngày ký.
+    div(style="display: flex; justify-content: space-around;")
+      div 
+        p ĐẠI DIỆN BÊN A 
+        P CÔNG TY TNHH VIETTRAVEL
+      div 
+        p ĐẠI DIỆN BÊN B
